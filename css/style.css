@@ -1,0 +1,210 @@
+/* General Style */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+line-height: 1.4;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin: 0.75rem 0;
+}
+
+.largeHeading{
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+
+.lead{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn-dark{
+  background: #333;
+  color: #fff;
+}
+.text-center{
+  text-align: center;
+}
+.text-primary{
+  color: #f73d3d;
+}
+
+.bg-ligh{
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
+
+.list{
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.list li{
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px;
+}
+/* End of Global Styling */
+/* Style for NavBar Classes */
+
+/* Navbar */
+#navbar{
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+/* The Links Inside The Navbar */
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding:0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover{
+  background: #f73d3d;
+  border-radius: 5px;
+}
+/* End of Navbar Styling */
+/* Header */
+#showcase{
+  background: #333 url('../images/background.gif') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+/* Header Content */
+#showcase .showcase-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  /* Overlay */
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* The Button for " Read More "  */
+.btn{
+  display: inline-block;
+  color: #fff;
+  background: #f73d3d;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px; 
+}
+
+.btn:hover{
+  background: #901c1c;
+}
+/* End of Header + Button Styling */
+/* Styling for the Section: Who We Are */
+.container{
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.mediumHeading{
+ font-size: 2rem;
+ margin-bottom: 0.75rem;
+ line-height: 1.1;
+}
+
+.ypos-1{ padding: 1.5rem 0; }
+.ypos-2{ padding: 2rem 0; }
+.ypos-3{ padding: 3rem 0; }
+
+.p-1{ padding: 1.5rem; }
+.p-2{ padding: 2rem; }
+.p-3{ padding: 3rem; }
+
+#who .items{
+  display: flex;
+  padding: 1rem;
+}
+
+#who .items .item{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+#who .items .item i {
+  background: #f73d3d;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+/* END of Styling Who We Are Section */
+/* Styling For What We Do Section */
+#what{
+  display: flex;
+}
+#what div{
+  flex: 1;
+}
+
+#what .what-img{
+  background: url('../images/0\ KHvZM6yQ8XXYbTE5.gif') no-repeat center center/cover;
+}
+/* End for What We Do Section */
+/* Styling for Our Services Section */
+#services .items{
+  display: flex;
+}
+
+#services .items img{
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#services .items span{
+  padding-left: 35%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container .small{
+  text-align: center;
+  font-size: 1.5rem;
+}
